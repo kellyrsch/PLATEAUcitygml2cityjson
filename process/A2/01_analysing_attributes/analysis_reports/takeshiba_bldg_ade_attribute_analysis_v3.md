@@ -1,4 +1,4 @@
-# PLATEAU i-UR ADE Attribute Analysis
+# PLATEAU i-UR ADE Attribute Analysis - Takeshiba
 
 - Input folder: `/fastssd/students3d/kschoonderwoer/takeshiba_bldg/bldg`
 - bldgFileCount: 16
