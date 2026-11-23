@@ -1,4 +1,4 @@
-# PLATEAU i-UR ADE Attribute Analysis
+# PLATEAU i-UR ADE Attribute Analysis - Hachioji 
 
 - Input folder: `/fastssd/students3d/kschoonderwoer/hachioji_bldg/bldg`
 - bldgFileCount: 202
