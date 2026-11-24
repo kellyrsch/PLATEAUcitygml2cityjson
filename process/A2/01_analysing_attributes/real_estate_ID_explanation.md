@@ -1,5 +1,8 @@
 # Japan's Real Estate ID (不動産ID)
 
+Prompt:
+> Hi, I have this document: https://www.mlit.go.jp/tochi_fudousan_kensetsugyo/content/001594268.pdf . The document should contain info about the Real Estate ID system that Japan was/is/wants to implement, but it is all in Japanese. Can you help me extract and translate the info I need from it? I want to know what exactly the real estate id is, why is was created, what its current status is (was it discontinued, is it already in use, is it still in development) and why, on what timeline it is (will it be used in the near future, or will it never be used/is it unrealistic to be used). Please write it to a markdown file called "real_estate_ID_explanation.md" in the folder /home/kellyrsch/mscthesis/
+
 **What it is, why it was created, and where it stands**
 
 | Item | Detail |
