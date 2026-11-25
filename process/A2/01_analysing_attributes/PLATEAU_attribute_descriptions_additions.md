@@ -6,6 +6,16 @@ This file supplements `PLATEAU_attribute_descriptions.md` with practical explana
 2. `uro:DataQualityAttribute` and `uro:PublicSurveyDataQualityAttribute` — mandatory status, meaning, and why high LODs often look “unknown”.
 3. `uro:BuildingIDAttribute` field `uro:branchID` — what it represents and why it is absent from the analysed data.
 
+Prompts: 
+> Hi, can you explain to me in more detail what the uro:KeyValuePairAttribute (uro:key and uro:codeValue) are exactly used for and how they work/how they are applied? 
+
+> Okay, please remember this answer for later to add it to the md file. First, I want some more clarification as well about the uro:DataQualityAttribute attributes and the uro:PublicSurveyDataQualityAttribute attributes. I want to know to what extent their presence is mandatory/crucial/important and if these attributes are actually useful for irl (in real life) applications. It seems right now that the higher the LOD (of these attributes), the more unknown values, so how important is it to include them?
+
+> For this part, please remember the short answer and sections 1, 2, and 3. Before we write to a md file, I have one more attribute that needs more explanation, namely from uro:BuildingIDAttribute the attribute uro:branchID. Is this attribute mandatory (in specific cases) and what exactly does it represent? In my analysed data it was never present.
+
+> Okay, for this answer please remember everything except for section 3. Now, I want you to write a new markdown file called "PLATEAU_attribute_descriptions_additions.md" in the folder /home/kellyrsch/mscthesis/, with three parts with what I told you to remember from the three answers you gave (each time including the short answer).
+
+
 ## Part 1 — `uro:KeyValuePairAttribute` in practice
 
 ### Short answer
