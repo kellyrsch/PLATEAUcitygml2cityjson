@@ -1,5 +1,13 @@
 # PLATEAU GitHub Use Cases — i-UR ADE (`uro:`) Attribute Usage Analysis (v2)
 
+Prompt v1: 
+> I want to assess some PLATEAU use cases on GitHub. Can you extract/give a list of which i-UR ADE attributes (with prefix uro) are used in a use case and how they're used and how often/how crucial they are to the use case, given the URL to the GitHub repository? This is the first repo: https://github.com/Project-PLATEAU/Urban-structure-analysis
+
+>I'll provide a small list of repo's, can you analyse them all and write the results to one markdown file "plateau_github_use_case_analysis.md" in the folder /home/kellyrsch/mscthesis
+
+Prompt v2: 
+> Hi, can you extend the analysis with some more plateau github repo's? And can you make sure to check for all 'uro' attributes (i-UR ADE attributes from the Urban Object Module)? Can you add the results of these analyses to the same markdown file, but save it as a new file /home/kellyrsch/mscthesis/plateau_github_use_case_analysis_v2.md? 
+
 **Prepared:** 2026-11-24  
 **Scope:** Thirteen Project PLATEAU repositories. For each repository this report identifies which i-UR ADE attributes (CityGML attributes in the `uro:` namespace, i.e. the i-UR **Urban Object Module**) are read, written, or consumed, how they are used, how often they are referenced, and how critical they are to the use case.  
 **Method:** shallow clone → exhaustive static search for `uro:`, `uro_`, `BuildingDetailAttribute`, `RiverFloodingRiskAttribute`, `i-UR`/`iur`, canonical ADE field names, XPath/JSON keys, schema/XSD definitions, and prefix-stripped/preprocessed column names → trace each hit to a read/join/write/validation/flatten/display site → cross-check against the i-UR schema → classify criticality.
